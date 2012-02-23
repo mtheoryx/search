@@ -1,0 +1,70 @@
+/* ===== Primary Styles ========================================================
+   Author:
+   ========================================================================== */
+
+/*
+IU Branding Bar Primary Styles
+*/
+
+#skipnav { left:-9999em; position:absolute;top:-9999em; }
+header#identity {
+	background-color: #7d110c;
+	color: #fff;
+	font-size: 0.625em; /* 10px */
+	height: 44px;
+	line-height: 1em; /* 10px */
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+div#signature {
+	width:auto;
+	height: 44px;
+	position: relative;
+	text-align: left;
+	margin-left:20px;
+}
+#identity a {color: #fff;text-decoration: underline;}
+#signature a.iu {
+	background: url(../img/iu_crimson.gif) no-repeat 20px 0;
+	display: block;
+	height: 44px;
+	left: -20px;
+	position: relative;
+	top: 0;
+	width: 250px;
+}
+#signature a.iu img {display: none;}
+
+/*
+IU Footer Primary Styles
+*/
+footer#copyright {
+	font-size: 0.688em; /* 11px */
+	line-height: 1.364em; /* 15px */
+	width:90%;
+	margin:0 auto;
+	padding:0 15px;
+}
+div#blockiu, div#statement {
+	height:28px;
+	float:left;
+}
+div#blockiu img {
+	margin:0 5px;
+}
+a { color: #990000; text-decoration:none;}
+a:hover { color: #990000;text-decoration:underline; }
+a:visited { }
+
+
+
+
+
+
+
+
+
+
+
