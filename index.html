@@ -52,6 +52,49 @@
 			
 		</div> <!-- /div#main -->
 	</div> <!-- /div#main-container -->
+	
+
+	<div id="divWebResults">
+	
+		<div class="results_pag clearfix">
+	                   <div class="resultsMeta floatLeft">
+	                       <strong><span class="searchMode">
+	                           <asp:Label ID="lblSourceTop" runat="server" Text=""></asp:Label>
+	                       </span>search results</strong> for <strong><i>'<asp:Label ID="lblStringTop" runat="server"
+	                           Text=""></asp:Label>'</i></strong> &nbsp;
+	                   </div>
+	                   <div class="resultsPages floatRight">
+	                       <strong>
+	                           <asp:PlaceHolder ID="phPagesTop" runat="server"></asp:PlaceHolder>
+	                       </strong>
+	                   </div>
+	               </div>
+	
+		<div class="swogResults clearfix">
+		<div id="resultsWrap">
+			<ol class="numList">
+				<asp:PlaceHolder ID="phResults" runat="server"></asp:PlaceHolder>
+			</ol>
+		</div>
+	</div>
+	
+		<div class="results_pag clearfix">
+		
+		<div class="resultsMeta floatLeft">
+			<strong><span class="searchMode">
+			<asp:Label ID="lblSourceBottom" runat="server" Text=""></asp:Label>
+			</span>search results</strong> for <strong><i>'<asp:Label ID="lblStringBottom" runat="server" Text=""></asp:Label>'</i></strong> &nbsp;
+		</div>
+		
+		<div class="resultsPages floatRight">
+			<strong>
+				<asp:PlaceHolder ID="phPagesBottom" runat="server"></asp:PlaceHolder>
+			</strong>
+		</div>
+		
+	</div>
+	
+	</div>
 
 	<!--IU BRANDING FOOTER-->
 	<footer class="branding" id="copyright">
