@@ -19,8 +19,9 @@
 	
 	<!--	CSS Stylesheets-->
 	<link rel="stylesheet" href="css/bootstrap.css">
+<!--	<link rel="stylesheet" href="css/responsive.css">-->
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive.css">
+
 	
 	<!-- @TODO: Create IU fav and touch icons -->
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -44,7 +45,7 @@
 	</header>
 	<!--	END IU BRANDING BAR-->
 	
-	<div id="main-container" class="">
+	<div id="main-container" class="container">
 		<a id="skip"></a>
 		<div id="main" class="">
 			<!-- Main Search feature here -->
@@ -64,7 +65,7 @@
 			</div>
 			<div class="form">
 				<form action="#">
-					<div class="">
+					<div class="option_tabs">
 					<fieldset class="">
 						<legend>Search Options</legend>
 						<div class="btn-group">
@@ -90,12 +91,13 @@
 						</select>
 					</div>
 					
-					<div class="">
-						<fieldset class="">
+					<div id="search_container">
+						<fieldset>
 							<legend>Search Box</legend>
 							<label for="searchbox">Search</label>
-							<input type="text" class="" name="searchbox" id="searchbox" />
-							<input type="submit" class="" value="Search!"/>
+							<input type="text" class="" name="searchbox" id="searchbox" placeholder="Enter your search..."/>
+<!--							<input type="submit" class="" value=""/>-->
+							<button id="submit" class="btn"><i class="icon-search"></i></button>
 						</fieldset>
 					</div>
 				</form>
@@ -117,7 +119,7 @@
 				<a href="" class="btn">FOLLOW US ON TWITTER</a>
 			</div>
 		</div>
-	</div> <!-- /div#main-container -->
+
 
 	<!--IU BRANDING FOOTER-->
 	<footer class="branding" id="copyright">
@@ -146,31 +148,10 @@
 			<li><a href="http://www.indiana.edu/comments/copyright.shtml">Copyright Complaints</a></li>
 			<li><a href="http://search.iu.edu/Privacy.aspx">Privacy Statement</a></li>
 		</ul>
-		
-<!--		<div id="blockiu">
-			<a href="http://www.indiana.edu/">
-				<img width="22" height="28" src="img/blockiu_white.gif" alt="Block IU Trident Icon" />
-			</a>
-		</div>
-		<div id="statement">
-			<p>
-				<a href="http://www.indiana.edu/comments/copyright.shtml">Copyright</a>
-				&copy;
-				<script type="text/javascript">
-				var theDate=new Date()
-				document.write(theDate.getFullYear())
-				</script>
-				<noscript>
-					2012
-				</noscript>
-				The Trustees of <a href="http://indiana.edu/">Indiana University</a> | 
-				<a href="http://www.indiana.edu/comments/copyright.shtml">Copyright Complaints</a> |
-				<a href="http://search.iu.edu/Privacy.aspx">Privacy Statement</a>
-			</p>
-		</div>-->
+
 	</footer>
 	<!--END IU BRANDING FOOTER-->
-
+	</div> <!-- /div#main-container -->
 <!--All scripts at the bottom of the page-->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
