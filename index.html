@@ -6,7 +6,7 @@
 <head>
 	
 	<!--	Listed first to set the character encoding-->
-	<meta charset="utf-8">
+	<meta charset="utf-8" />
 	<!--	Chrome frame commented out temporarily for validation reasons-->
 	<!--	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
 
@@ -31,6 +31,7 @@
 	<!--	Only scripts that cannot be put in the footer-->
 	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
 </head>
+
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 	<!--IU BRANDING BAR-->
@@ -43,20 +44,110 @@
 	</header>
 	<!--	END IU BRANDING BAR-->
 	
-	<div id="main-container" class="container">
+	<div id="main-container" class="">
 		<a id="skip"></a>
-		<div id="main" class="wrapper clearfix">
+		<div id="main" class="">
 			<!-- Main Search feature here -->
-			
-			
+			<div class="">
+				<div class="logo">
+					<img src="http://placehold.it/109x182" alt="" />
+				</div>
+				<div class="links">
+					<ul class="unstyled">
+						<li><a href="">What is IU Search?</a></li>
+						<li><a href="">Search at Knowledge Commons</a></li>
+						<li><a href="">Who can I contact about IU Search?</a></li>
+						<li><a href="">The Searchlight Podcast</a></li>
+						<li><a href="">Feedback</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="form">
+				<form action="#">
+					<div class="">
+					<fieldset class="">
+						<legend>Search Options</legend>
+						<div class="btn-group">
+							<ul class="unstyled">
+								<li><input type="button" value="IU Search" class="btn "/></li>
+								<li><input type="button" value="IUB Library" class="btn "/></li>
+								<li><input type="button" value="IUPUI Library" class="btn "/></li>
+								<li><input type="button" value="Google" class="btn "/></li>
+								<li><input type="button" value="Bing" class="btn "/></li>
+							</ul>
+						</div>
+					</fieldset>
+					</div>
+					
+					<!--HIDDEN UNLESS ON TABLET OR MOBILE-->
+					<div class="mobile">
+						<select name="option_dropdown" id="option_dropdown">
+							<option value="">IU Search</option>
+							<option value="">IUB Library</option>
+							<option value="">IUPUI Library</option>
+							<option value="">Google</option>
+							<option value="">Bing</option>
+						</select>
+					</div>
+					
+					<div class="">
+						<fieldset class="">
+							<legend>Search Box</legend>
+							<label for="searchbox">Search</label>
+							<input type="text" class="" name="searchbox" id="searchbox" />
+							<input type="submit" class="" value="Search!"/>
+						</fieldset>
+					</div>
+				</form>
+				
+			</div>
 			
 		</div> <!-- /div#main -->
+		<div id="social" class="">
+			<div class="facebook">
+				<div class="">
+				<img src="http://placehold.it/40" alt="" class=""/>
+				</div>
+				<div class="">
+					<p class=""><a href="">IU Search on Facebook</a></p>
+					<p><a href="" class="btn">Like</a></p>
+				</div>
+			</div>
+			<div class="twitter ">
+				<a href="" class="btn">FOLLOW US ON TWITTER</a>
+			</div>
+		</div>
 	</div> <!-- /div#main-container -->
 
 	<!--IU BRANDING FOOTER-->
 	<footer class="branding" id="copyright">
+		
 		<hr />
-		<div id="blockiu">
+		
+		<div class="mobile" id="mobile_copyright">
+			<a href="#" class="btn">IU Copyright Info</a>
+		</div>
+		
+		<ul class="unstyled">
+			<li><a href="http://www.indiana.edu/">
+				<img width="22" height="28" src="img/blockiu_white.gif" alt="Block IU Trident Icon" />
+				</a>
+			</li>
+			<li><a href="http://www.indiana.edu/comments/copyright.shtml">Copyright</a> &copy;
+				 <script type="text/javascript">
+				 var theDate=new Date()
+				 document.write(theDate.getFullYear())
+				 </script>
+				 <noscript>
+				 	2012
+				 </noscript>
+			 </li>
+			<li>The Trustees of <a href="http://indiana.edu/">Indiana University</a></li>
+			<li><a href="http://www.indiana.edu/comments/copyright.shtml">Copyright Complaints</a></li>
+			<li><a href="http://search.iu.edu/Privacy.aspx">Privacy Statement</a></li>
+		</ul>
+		
+<!--		<div id="blockiu">
 			<a href="http://www.indiana.edu/">
 				<img width="22" height="28" src="img/blockiu_white.gif" alt="Block IU Trident Icon" />
 			</a>
@@ -76,7 +167,7 @@
 				<a href="http://www.indiana.edu/comments/copyright.shtml">Copyright Complaints</a> |
 				<a href="http://search.iu.edu/Privacy.aspx">Privacy Statement</a>
 			</p>
-		</div>
+		</div>-->
 	</footer>
 	<!--END IU BRANDING FOOTER-->
 

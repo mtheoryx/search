@@ -59,7 +59,12 @@ a:hover { color: #990000;text-decoration:underline; }
 a:visited { }
 
 
+div#main {
+/*	border: 1px solid #ccc;
+	background: url('http://placehold.it/910x500') no-repeat;
+	margin: 20px auto;*/
 
+}
 
 
 
