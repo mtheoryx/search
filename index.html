@@ -4,21 +4,29 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
+	
+	<!--	Listed first to set the character encoding-->
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<!--	Chrome frame commented out temporarily for validation reasons-->
+	<!--	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
 
 	<title>Dev IU Search</title>
-	<meta name="description" content="Indiana University Search">
-	<meta name="author" content="">
-
+	
+	<meta name="description" content="Indiana University Search Portal">
+	<meta name="author" content="Indiana University">
+	<meta name="keywords" content="URL, Tiny, tinyurl, IU, Indiana, University"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-
+	
+	
+	
+	<!--	CSS Stylesheets-->
 	<link rel="stylesheet" href="css/global.css">
-
+	
+	<!--	Only scripts that cannot be put in the footer-->
 	<script src="js/libs/modernizr-2.0.6.min.js"></script>
 </head>
 <body>
-	<!-- IU Branding Bar -->
+	<!--IU BRANDING BAR-->
 	<header class="wrapper clearfix" id="identity">
 		<div id="signature">
 			<a href="http://www.indiana.edu/" class="iu">
@@ -26,16 +34,19 @@
 			</a>
 		</div>
 	</header>
+	<!--	END IU BRANDING BAR-->
 	
 	<div id="main-container">
 		<a id="skip"></a>
 		<div id="main" class="wrapper clearfix">
 			<!-- Main Search feature here -->
 			
-		</div> <!-- #main -->
-	</div> <!-- #main-container -->
+			
+			
+		</div> <!-- /div#main -->
+	</div> <!-- /div#main-container -->
 
-
+	<!--IU BRANDING FOOTER-->
 	<footer class="branding" id="copyright">
 		<hr />
 		<div id="blockiu">
@@ -60,22 +71,24 @@
 			</p>
 		</div>
 	</footer>
+	<!--END IU BRANDING FOOTER-->
 
+<!--All scripts at the bottom of the page-->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-
-<!-- scripts concatenated and minified via ant build script-->
 <script src="js/plugins.js"></script>
 <script src="js/script.js"></script>
 <!-- end scripts-->
 
-<script>
+<!--Google Analytics script-->
+<!--<script>
 	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
 	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
 	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 	s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
+</script>-->
 
+<!--Script for installing Chrome frame-->
 <!--[if lt IE 7 ]>
 	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
 	<script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
