@@ -1,6 +1,6 @@
 div#divWebResults
 {
-	position: relative;
+	clear: both;
 }
 .results_pag
 {
@@ -51,7 +51,6 @@ div#divWebResults
 .swogResults
 {
 	position:relative;
-	top:-100px;
 	padding:10px;
 }
 
