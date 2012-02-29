@@ -43,9 +43,9 @@ IU Footer Primary Styles
 footer#copyright {
 	font-size: 0.688em; /* 11px */
 	line-height: 1.364em; /* 15px */
-	width:90%;
+	width:100%;
 	margin:0 auto;
-	padding:0 15px;
+	padding:0;
 }
 div#blockiu, div#statement {
 	height:28px;
@@ -58,8 +58,83 @@ a { color: #990000; text-decoration:none;}
 a:hover { color: #990000;text-decoration:underline; }
 a:visited { }
 
+fieldset legend, label {
+	display: none;
+}
+
+div#social {
+	clear: both;
+}
+
+@media screen and (max-width: 480px) {
+	div#main-container.container {
+		width: 320px;
+		max-width: 320px;
+		margin: 0 auto;
+	}
+	
+	
+}
 
 
+
+@media screen and (max-width: 1024px){
+	div#main-container.container {
+		width: 100%;
+		margin: 0 auto;
+	}
+	div#main {
+		width: 90%;
+		margin: 10px auto;
+	}
+	div#search_container {
+		width: 50%;
+		position: relative;
+		float: left;
+	}
+	div#search_container input {
+		width: 70%;
+		
+	}
+	div#search_container input, div#search_container button {
+		float: left;
+	}
+
+	div.links, div.option_tabs {
+		display: none;
+	}
+	
+	div.logo {
+		float: left;
+
+		margin-right: 15px;
+		width: 30%;
+	}
+	div select#option_dropdown {
+		float: left;
+		width: 60%;
+		clear: right;
+	}
+	
+	
+}
+
+@media screen and (min-width: 1025px) {
+	
+	
+	
+	div.mobile {
+		display: none;
+	}
+	
+}
+
+@media screen and (min-width: 1200px) {
+	div#main-container {
+		width: 940px;
+		max-width: 940px;
+	}
+}
 
 
 
